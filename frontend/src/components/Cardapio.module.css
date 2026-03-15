@@ -1,0 +1,63 @@
+.container {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: #d4af37; /* Dourado elegante */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+    color: #888;
+    font-style: italic;
+}
+
+.grid {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+    padding-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: translateX(10px);
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.info p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.preco {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #d4af37;
+}

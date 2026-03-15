@@ -1,0 +1,48 @@
+.secaoContato {
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background: #151515;
+    border-radius: 8px;
+    border: 1px solid #d4af37;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.campo label {
+    color: #d4af37;
+    font-weight: bold;
+}
+
+.campo input, .campo textarea {
+    padding: 0.8rem;
+    background: #222;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+}
+
+.botao {
+    background: #d4af37;
+    color: black;
+    padding: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #fff;
+}

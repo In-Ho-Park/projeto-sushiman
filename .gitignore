@@ -1,0 +1,22 @@
+# --- BACK-END (Python / FastAPI / Flask) ---
+# Ignora o ambiente virtual (essencial!)
+back-end/venv/
+# Ignora arquivos temporários do Python
+back-end/__pycache__/
+__pycache__/
+*.pyc
+
+# --- BANCO DE DATOS (Segurança!) ---
+# Impede que o arquivo do banco de dados suba para o GitHub
+*.db
+*.sqlite3
+
+# --- FRONT-END (React / Vite) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+
+# --- LOGS E SISTEMA ---
+*.log
+.DS_Store
+.vscode/
